@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body
+ {  
+  margin: 50px;
+  /* padding: 0; */
+  font-family: 'Architects Daughter', "cursive";
+  background: url('https://i.imgur.com/IMjKmwu.jpg') #6b3a0d;
+  
+ }
+
+code {
+  font-family: 'Architects Daughter', "cursive";
+  font-weight: 800;
+}

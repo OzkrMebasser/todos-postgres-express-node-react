@@ -1,0 +1,46 @@
+.item {
+	padding: 0px 20px;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+
+.action-buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding:5px ;
+}
+
+.item__description {
+	color: rgb(0, 0, 0);
+	font-size: 35px;
+	padding:20px ;
+    margin-left: 30px ;
+	align-items: center;
+}
+
+.edit-form {
+	display: flex;
+	flex-direction: row;
+	align-items: right;
+	justify-content: space-around;
+	width: 80%;
+	margin-bottom: 20px; 
+
+	height: 50px;
+}
+
+.edit-form__input {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 10px 15px;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+}
